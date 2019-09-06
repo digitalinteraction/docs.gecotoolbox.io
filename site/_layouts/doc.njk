@@ -1,0 +1,34 @@
+---
+layout: base
+---
+
+<section class="section">
+  <div class="container">
+    <div class="columns is-variable">
+      {#
+        Left sidebar
+      #}
+      <div class="column is-2">
+        <aside class="menu sticky-toc">
+          <p class="menu-label"> {{ title }} </p>
+          <ul class="menu-list">
+            {% for heading in page.inputPath | extractTOC %}
+            <li class="is-{{ heading.level }}">
+              <a href="#{{ heading.handle }}">{{ heading.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </aside>
+      </div>
+
+      {#
+        Main content
+      #}
+      <div class="column is-10">
+        <div class="content">
+          {{ content | safe }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

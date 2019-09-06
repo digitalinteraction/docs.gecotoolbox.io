@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: basic
+subpageTag: root
 ---
 
 # gE.CO docs

@@ -1,0 +1,25 @@
+---
+layout: base
+---
+
+<section class="section">
+  <div class="container">
+    <div class="content">
+      {{ content | safe }}
+    </div>
+
+    <hr />
+
+    {% if subpageTag and collections[subpageTag] %}
+      <ol>
+        {% for page in collections[subpageTag] %}
+        <li>
+          <a href="{{ page.url }}" class="is-size-4 has-text-weight-semibold">
+            {{ page.data.title }} →
+          </a>
+        </li>
+        {% endfor %}
+      </ol>
+    {% endif %}
+  </div>
+</section>
