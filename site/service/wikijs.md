@@ -4,4 +4,17 @@ title: Wiki.js
 
 # Wiki.js
 
-Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna.
+## What is it
+
+In their words, wiki js is "The most powerful and extensible open source Wiki software".
+We deploy wikijs to provide a solid documentation and blogging platform for your organisation.
+
+[More info →](https://wiki.js.org/)
+
+## Example uses
+
+- ...
+
+## FAQs
+
+...
