@@ -50,7 +50,7 @@ module.exports = function(eleventyConfig) {
 
   const md = markdown({
     html: true,
-    breaks: true,
+    breaks: false,
     linkify: false
   })
 
