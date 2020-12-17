@@ -1,52 +1,19 @@
-const fs = require('fs')
 const markdown = require('markdown-it')
 const markdownAnchor = require('markdown-it-anchor')
 
-// from: https://github.com/robb-j/md-toc/
-function slugify(value) {
-  return value
-    .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^\w-]+/g, '')
-}
-
-// from: https://github.com/robb-j/md-toc/
-function extractTOC(inputPath) {
-  if (!inputPath) return []
-
-  const markdown = fs.readFileSync(inputPath, 'utf8')
-
-  const headingParser = /^.*?(#{2,})(.*)$/gm
-  let match = headingParser.exec(markdown)
-  const headings = []
-
-  // Loop through, finding each heading match
-  while (match) {
-    // Extract the hashes and title strings
-    let [hashes, title] = match.slice(1)
-    title = title.trim()
-
-    // Only process if not our own title
-    if (title !== 'Table of contents') {
-      headings.push({
-        title,
-        level: hashes.length,
-        handle: slugify(title)
-      })
-    }
-
-    // Move to the next heading
-    match = headingParser.exec(markdown)
-  }
-
-  return headings
-}
+const filters = require('./11ty/filters')
+const shortcodes = require('./11ty/shortcodes')
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addWatchTarget('./sass/')
   eleventyConfig.addPassthroughCopy('static')
 
-  eleventyConfig.addFilter('json', v => JSON.stringify(v, null, 2))
-  eleventyConfig.addFilter('extractTOC', extractTOC)
+  for (const [key, filter] of Object.entries(filters)) {
+    eleventyConfig.addFilter(key, filter)
+  }
+  for (const [key, shortcode] of Object.entries(shortcodes)) {
+    eleventyConfig.addShortcode(key, shortcode)
+  }
 
   const md = markdown({
     html: true,
@@ -55,7 +22,7 @@ module.exports = function(eleventyConfig) {
   })
 
   md.disable('code')
-  md.use(markdownAnchor, { slugify })
+  md.use(markdownAnchor, { slugify: filters.slugify })
 
   eleventyConfig.setLibrary('md', md)
 
@@ -63,8 +30,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: 'src',
       output: 'dist',
-      layouts: '_layouts',
-      includes: '_includes'
+      layouts: '_layouts'
     },
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',

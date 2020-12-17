@@ -1,24 +1,40 @@
 //
-// From: https://openlab.ncl.ac.uk/gitlab/geco/requests-gui/blob/master/src/scss/common.scss
+// Custom styles for the documentation
 //
+
+//
+// Custom fonts
+//
+@font-face {
+  font-family: 'Mulish';
+  src: url('/static/fonts/Mulish/Mulish-VariableFont_wght.ttf')
+    format('truetype-variations');
+  font-weight: 200 900;
+}
+@font-face {
+  font-family: 'Mulish';
+  src: url('/static/fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf')
+    format('truetype-variations');
+  font-style: italic;
+  font-weight: 200 900;
+}
 
 // Customise bulma by setting their variables first
 // -> see https://bulma.io/documentation/customize/variables/
-$primary: #296eb4;
-$info: #58a4b0;
-
-$popup: #e56399;
+$primary: #089fc4;
+$info: #c22f61;
+$link: #60b98f;
 
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
-$body-family: 'IBM Plex Sans', 'system-ui', -apple-system, BlinkMacSystemFont,
-  'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
-  'Segoe UI Emoji', 'Segoe UI Symbol';
+$body-family: 'system-ui', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol';
 $family-monospace: 'SF Mono', Consolas, 'Liberation Mono', Menlo, Courier,
   monospace;
 
-$title-family: 'Dosis', $body-family;
+$title-family: 'Mulish', $body-family;
 $subtitle-family: $title-family;
 $title-weight: 700;
 
@@ -103,10 +119,6 @@ $radius-large: 12px;
 
 html {
   scroll-behavior: smooth;
-}
-
-.navbar.is-primary {
-  background-color: $popup;
 }
 
 .sticky-toc {

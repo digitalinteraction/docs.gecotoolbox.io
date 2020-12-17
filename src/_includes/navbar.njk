@@ -1,4 +1,4 @@
-<nav class="navbar is-info" role="navigation" aria-label="main navigation">
+<nav class="navbar is-info has-shadow" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" href="{{ '/' | url }}">
@@ -9,7 +9,7 @@
     </div>
     <div class="navbar-menu">
       <div class="navbar-end">
-        {% for page in collections.root %}
+        {% for page in collections.root | sortBy('data.title') %}
           {% if page.data.subpageTag and collections[page.data.subpageTag] %}
             <div class="navbar-item has-dropdown is-hoverable">
               <a href="{{ page.url }}" class="navbar-link">
@@ -17,7 +17,11 @@
               </a>
 
               <div class="navbar-dropdown">
-                {% for subPage in collections[page.data.subpageTag] %}
+                <a href="{{ page.url }}" class="navbar-item">
+                  {{ page.data.indexTitle or page.data.title }}
+                </a>
+                <div class="navbar-divider"></div>
+                {% for subPage in collections[page.data.subpageTag] | sortBy('data.title') %}
                   <a href="{{ subPage.url }}" class="navbar-item">
                     {{ subPage.data.title }}
                   </a>

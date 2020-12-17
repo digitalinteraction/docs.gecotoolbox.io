@@ -10,9 +10,10 @@ layout: base
 
     <hr />
 
-    {% if subpageTag and collections[subpageTag] %}
+    {% if subpageTag and collections[subpageTag]%}
+      <h2 class="title is-4 is-marginless">Pages</h2>
       <ol>
-        {% for page in collections[subpageTag] %}
+        {% for page in collections[subpageTag] | sortBy('data.title') %}
         <li>
           <a href="{{ page.url }}" class="is-size-4 has-text-weight-semibold">
             {{ page.data.title }} →
