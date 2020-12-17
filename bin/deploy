@@ -1,4 +1,4 @@
-#!/usb/bin/env sh
+#!/usr/bin/env sh
 
 set -e
 
@@ -7,7 +7,12 @@ then
   source .env
 fi
 
-if [ id dist ]
+if [ -f archive.tar.gz ]
+then
+  rm archive.tar.gz
+fi
+
+if [ -d dist ]
 then
   rm -rf dist
 fi
