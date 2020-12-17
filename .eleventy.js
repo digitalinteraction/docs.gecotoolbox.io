@@ -54,18 +54,20 @@ module.exports = function(eleventyConfig) {
     linkify: false
   })
 
+  md.disable('code')
   md.use(markdownAnchor, { slugify })
 
   eleventyConfig.setLibrary('md', md)
 
   return {
     dir: {
-      input: 'site',
+      input: 'src',
       output: 'dist',
       layouts: '_layouts',
       includes: '_includes'
     },
     markdownTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
     templateFormats: ['md', '11ty.js', 'njk', 'liquid']
   }
 }
