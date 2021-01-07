@@ -1,9 +1,9 @@
 {
-  "name": "@openlab/geco-docs-site",
-  "description": "Setup with puggle",
+  "name": "@openlab/docs.gecotoolbox.io",
+  "description": "gE.CO toolbox documentation website",
   "version": "0.0.0",
   "private": true,
-  "repository": "digitalinteraction/geco-docs-site",
+  "repository": "digitalinteraction/docs.gecotoolbox.io",
   "author": "",
   "license": "MIT",
   "scripts": {
@@ -51,6 +51,5 @@
     "*.{js,json,css,md,ts,tsx}": [
       "prettier --write"
     ]
-  },
-  "main": "src/index.js"
+  }
 }
