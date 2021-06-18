@@ -2,9 +2,9 @@
 title: NextCloud
 ---
 
-# Introduction
+# NextCloud
 
-------
+## Introduction
 
 This help guide provides an introduction to using Nextcloud as part of the gE.CO toolbox. The text has been adapted from original documentation provided by Nextcloud under Creative Commons license ([CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/)). Full credit is given to Nextcloud for creating the original documentation.
 
