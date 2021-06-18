@@ -1,8 +1,8 @@
 ---
-title: NextCloud Drive
+title: NextCloud
 ---
 
-# NextCloud - Drive
+# NextCloud
 
 ## About
 
