@@ -26,7 +26,7 @@ exports.extractTOC = function(inputPath) {
 
   const markdown = fs.readFileSync(inputPath, 'utf8')
 
-  const headingParser = /^.*?(#{2,})(.*)$/gm
+  const headingParser = /^(#{2,})(.*)$/gm
   let match = headingParser.exec(markdown)
   const headings = []
 
