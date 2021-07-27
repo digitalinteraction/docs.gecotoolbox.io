@@ -4,7 +4,7 @@ title: Mattermost
 
 # Introduction
 
-------
+---
 
 This help guide provides an introduction to using Mattermost as part of the gE.CO toolbox. The text has been adapted from original documentation provided by Mattermost under Creative Commons license ([CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/)). Full credit is given to the Mattermost community for creating the original documentation.
 
@@ -67,7 +67,7 @@ If you’ve forgotten your password, you can reset it by selecting **I forgot my
 
 ### Single Sign-On
 
-When enabled by the administrator, you can sign in using your GitLab, Google, Office 365, AD/LDAP, or SAML credentials. 
+When enabled by the administrator, you can sign in using your GitLab, Google, Office 365, AD/LDAP, or SAML credentials.
 
 This feature is not currently enabled by administrators of the gE.CO toolbox. If this is a feature you would like to see added, please contact the [gE.CO project team](mailto:support@gecotoolbox.io).
 
@@ -254,23 +254,7 @@ Select **Unreads** to filter your followed threads by only those with unread rep
 
 For additional details about working with the Beta release of Collapsed Reply Threads, see our [tutorial video on YouTube](https://www.youtube.com/watch?v=hnD0Zj-mIbs).
 
-<iframe src="https://www.youtube.com/embed/hnD0Zj-mIbs" frameborder="0" allowfullscreen="" style="box-sizing: border-box; position: absolute; top: 0px; left: 0px; width: 635.25px; height: 301.734375px;"></iframe>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<iframe src="https://www.youtube.com/embed/hnD0Zj-mIbs" frameborder="0" allowfullscreen="" style="box-sizing: border-box; width: 635.25px; height: 301.734375px;"></iframe>
 
 ## Formatting text
 
@@ -280,7 +264,7 @@ Markdown makes it easy to format messages. Type a message as you normally would,
 
 You can use either `_` or `*` around a word or phrase to make it italic, or `__` or `**` around a word or phrase to make it bold. You can also use common keyboard shortcuts, including CTRL/CMD+B to bold, and CTRL/CMD+I to italicize text.
 
-- `*italics*` (or `_italics_`) renders as *italics*
+- `*italics*` (or `_italics_`) renders as _italics_
 - `**bold**` renders as **bold**
 - `***bold-italic***` renders as [![Bold Italics](https://docs.mattermost.com/_images/bold_italics.png)](https://docs.mattermost.com/_images/bold_italics.png)
 - `~~strikethrough~~` renders as [![Strike Through](https://docs.mattermost.com/_images/strikethrough.png)](https://docs.mattermost.com/_images/strikethrough.png)
@@ -398,13 +382,13 @@ code block
 > ```
 >     this is my
 >     code block
-> 
+>
 > ^^^^ 4x spaces
 > ```
 
 **Syntax highlighting**
 
-To add syntax highlighting, type the language to be highlighted after the ````` at the beginning of the code block. Mattermost also offers four different code themes (GitHub, Solarized Dark, Solarized Light, and Monokai) that can be changed in **Account Settings > Display > Theme > Custom Theme > Centre Channel Styles**.
+To add syntax highlighting, type the language to be highlighted after the ``` at the beginning of the code block. Mattermost also offers four different code themes (GitHub, Solarized Dark, Solarized Light, and Monokai) that can be changed in **Account Settings > Display > Theme > Custom Theme > Centre Channel Styles**.
 
 Supported languages include: `applescript`, `as`, `atom`, `bas`, `bash`, `boot`, `_coffee`, `c++`, `c`, `cake`, `cc`, `cl2`, `clj`, `cljc`, `cljs`, `cljs.hl`, `cljscm`, `cljx`, `cjsx`, `cson`, `coffee`, `cpp`, `cs`, `csharp`, `css`, `d`, `dart`, `dfm`, `di`, `delphi`, `diff`, `django`, `docker`, `dockerfile`, `dpr`, `erl`, `fortran`, `freepascal`, `fs`, `fsharp`, `gcode`, `gemspec`, `go`, `groovy`, `gyp`, `h++`, `h`,`handlebars`, `hbs`, `hic`, `hpp`, `html`, `html.handlebars`, `html.hbs`, `hs`, `hx`, `iced`, `irb`, `java`, `jinja`, `jl`, `js`, `json`, `jsp`, `jsx`, `kt`, `ktm`, `kts`, `latexcode`, `lazarus`, `less`, `lfm`, `lisp`, `lpr`,`lua`, `m`, `mak`, `matlab`, `md`, `mk`, `mkd`, `mkdown`, `ml`, `mm`, `nc`, `objc`, `obj-c`, `osascript`, `pas`, `pascal`, `perl`, `pgsql`, `php`, `php3`, `php4`, `php5`, `php6`, `pl`, `plist`, `podspec`, `postgres`, `postgresql`, `ps`, `ps1`, `pp`, `py`, `r`, `rb`, `rs`, `rss`, `ruby`, `scala`, `scm`, `scpt`, `scss`, `sh`, `sld`, `st`, `styl`, `sql`, `swift`, `tex`, `texcode`, `thor`, `ts`, `tsx`, `v`, `vb`, `vbnet`, `vbs`, `veo`, `xhtml`, `xml`, `xsl`, `yaml`, and `zsh`.
 
@@ -533,7 +517,7 @@ Create a line by using three `*`, `_`, or `-`.
 
 Renders as:
 
-------
+---
 
 ### Block quotes
 
@@ -558,8 +542,6 @@ Create a table by placing a dashed line `---` under the header row, then separat
 Renders as:
 
 ![Markdown Table Sample](https://docs.mattermost.com/_images/markdownTable1.png)
-
-
 
 ## Using Emojis
 
@@ -633,9 +615,9 @@ Use @mentions to get the attention of specific team members.
 
 #### @username
 
-You can mention a teammate by using the *@* symbol plus their username to send them a mention notification.
+You can mention a teammate by using the _@_ symbol plus their username to send them a mention notification.
 
-Type *@* to bring up a list of team members who can be mentioned. To filter the list, type the first few letters of any username, first name, last name, or nickname. Use the UP and DOWN arrow keys to scroll through entries in the list, and then press ENTER to select the person to mention. When selected, the username replaces the full name or nickname.
+Type _@_ to bring up a list of team members who can be mentioned. To filter the list, type the first few letters of any username, first name, last name, or nickname. Use the UP and DOWN arrow keys to scroll through entries in the list, and then press ENTER to select the person to mention. When selected, the username replaces the full name or nickname.
 
 The following example sends a special mention notification to Alice, whose username is **alice**. The notification alerts her of the channel and message where she was mentioned. If Alice is away from Mattermost and has email notifications turned on, she’ll receive an email alert of her mention along with the message text.
 
@@ -678,7 +660,7 @@ Group mention identifiers (slugs) use the LDAP group name by default. To customi
 3. In **Group Profile > Group Mention** enter the new slug.
 4. Select **Save**.
 
-As with `@username` mentions, use *@* to bring up a list of groups that can be mentioned. To filter the list, type the first few letters of any group. Use the UP and DOWN arrow keys to scroll through entries in the list, and then press ENTER to select the group you want to mention.
+As with `@username` mentions, use _@_ to bring up a list of groups that can be mentioned. To filter the list, type the first few letters of any group. Use the UP and DOWN arrow keys to scroll through entries in the list, and then press ENTER to select the group you want to mention.
 
 ```
 @dev-managers great work hitting all of our code coverage goals this quarter!
@@ -771,38 +753,38 @@ Built-in slash commands come with all Mattermost installations and custom slash 
 
 The following slash commands are available on all Mattermost installations:
 
-| Command                                                | Description                                                  | Example                                                    |
-| ------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- |
-| /away                                                  | Set your availability to away                                | /away                                                      |
-| /offline                                               | Set your availability to offline                             | /offline                                                   |
-| /online                                                | Set your availability to online                              | /online                                                    |
-| /dnd                                                   | Set your availability to Do Not Disturb                      | /dnd                                                       |
-| /code *{text}*                                         | Display text as a code block                                 | /code File bugs                                            |
-| /collapse                                              | Turn on auto-collapsing of image previews, image attachments, as well as [in-line images](#in-line-images) over 100px in height | /collapse                                                  |
-| /expand                                                | Turn off auto-collapsing of image previews, image attachments, as well as [in-line images](#in-line-images) over 100px in height | /expand                                                    |
-| /echo *{message}**{delay in seconds}*                  | Echo back text from your account                             | /echo Hello World 5                                        |
-| /header *{text}*                                       | Edit the channel header                                      | /header File bugs here                                     |
-| /invite *@{user}* *~{channel-name}*                    | Invite user to the channel                                   | /invite @john ~sampleChannel                               |
-| /purpose *{text}*                                      | Edit the channel purpose                                     | /purpose A channel to discuss bugs                         |
-| /rename *{text}*                                       | Rename the channel                                           | /rename Developers                                         |
-| /help                                                  | Open the Mattermost help page                                | /help                                                      |
-| /invite_people *{name@domain.com …}*                   | Send an email invite to your Mattermost team                 | /invite_people [john@example.com](mailto:john@example.com) |
-| /kick *{@username}*                                    | Remove a member from a public or private channel             | /kick @alice                                               |
-| /remove *{@username}*                                  | Remove a member from a public or private channel             | /remove @alice                                             |
-| /join *{channel-name}*                                 | Join the open channel                                        | /join off-topic                                            |
-| /open *{channel-name}*                                 | Join the open channel                                        | /open off-topic                                            |
-| /leave                                                 | Leave the current channel                                    | /leave                                                     |
-| /mute                                                  | Turns off desktop, email and push notifications for the current channel or the [channel] specified | /mute ~[channel]                                           |
-| /logout                                                | Log out of Mattermost                                        | /logout                                                    |
-| /me *{message}*                                        | Do an action                                                 | /me Hello World                                            |
-| /msg *{@username}**{message}*                          | Send a Direct Message to a user                              | /msg @alice hello                                          |
-| /groupmsg *{@username1, @username2, …}**{message}*     | Sends a Group Message to the specified users                 | /groupmsg @alice, @bob hello                               |
-| /search *{text}*                                       | Search text in messages                                      | /search meeting                                            |
-| /settings                                              | Open the Account Settings dialog                             | /settings                                                  |
-| /shortcuts                                             | Display a list of keyboard shortcuts                         | /shortcuts                                                 |
-| /shrug *{message}*                                     | Add `¯\_(ツ)_/¯`to your message                              | /shrug oh well                                             |
-| /status *{emoji_name}**{descriptive status_message}* * | Set a custom status that includes an optional emoji and a descriptive status message | /status sick Feeling unwell and taking time off to recover |
-| /status clear *                                        | Clear the current status                                     | /status clear                                              |
+| Command                                                   | Description                                                                                                                      | Example                                                    |
+| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| /away                                                     | Set your availability to away                                                                                                    | /away                                                      |
+| /offline                                                  | Set your availability to offline                                                                                                 | /offline                                                   |
+| /online                                                   | Set your availability to online                                                                                                  | /online                                                    |
+| /dnd                                                      | Set your availability to Do Not Disturb                                                                                          | /dnd                                                       |
+| /code _{text}_                                            | Display text as a code block                                                                                                     | /code File bugs                                            |
+| /collapse                                                 | Turn on auto-collapsing of image previews, image attachments, as well as [in-line images](#in-line-images) over 100px in height  | /collapse                                                  |
+| /expand                                                   | Turn off auto-collapsing of image previews, image attachments, as well as [in-line images](#in-line-images) over 100px in height | /expand                                                    |
+| /echo _{message}\*\*{delay in seconds}_                   | Echo back text from your account                                                                                                 | /echo Hello World 5                                        |
+| /header _{text}_                                          | Edit the channel header                                                                                                          | /header File bugs here                                     |
+| /invite _@{user}_ _~{channel-name}_                       | Invite user to the channel                                                                                                       | /invite @john ~sampleChannel                               |
+| /purpose _{text}_                                         | Edit the channel purpose                                                                                                         | /purpose A channel to discuss bugs                         |
+| /rename _{text}_                                          | Rename the channel                                                                                                               | /rename Developers                                         |
+| /help                                                     | Open the Mattermost help page                                                                                                    | /help                                                      |
+| /invite*people *{name@domain.com …}\_                     | Send an email invite to your Mattermost team                                                                                     | /invite_people [john@example.com](mailto:john@example.com) |
+| /kick _{@username}_                                       | Remove a member from a public or private channel                                                                                 | /kick @alice                                               |
+| /remove _{@username}_                                     | Remove a member from a public or private channel                                                                                 | /remove @alice                                             |
+| /join _{channel-name}_                                    | Join the open channel                                                                                                            | /join off-topic                                            |
+| /open _{channel-name}_                                    | Join the open channel                                                                                                            | /open off-topic                                            |
+| /leave                                                    | Leave the current channel                                                                                                        | /leave                                                     |
+| /mute                                                     | Turns off desktop, email and push notifications for the current channel or the [channel] specified                               | /mute ~[channel]                                           |
+| /logout                                                   | Log out of Mattermost                                                                                                            | /logout                                                    |
+| /me _{message}_                                           | Do an action                                                                                                                     | /me Hello World                                            |
+| /msg _{@username}\*\*{message}_                           | Send a Direct Message to a user                                                                                                  | /msg @alice hello                                          |
+| /groupmsg _{@username1, @username2, …}\*\*{message}_      | Sends a Group Message to the specified users                                                                                     | /groupmsg @alice, @bob hello                               |
+| /search _{text}_                                          | Search text in messages                                                                                                          | /search meeting                                            |
+| /settings                                                 | Open the Account Settings dialog                                                                                                 | /settings                                                  |
+| /shortcuts                                                | Display a list of keyboard shortcuts                                                                                             | /shortcuts                                                 |
+| /shrug _{message}_                                        | Add `¯\_(ツ)_/¯`to your message                                                                                                  | /shrug oh well                                             |
+| /status _{emoji_name}\*\*{descriptive status_message}_ \* | Set a custom status that includes an optional emoji and a descriptive status message                                             | /status sick Feeling unwell and taking time off to recover |
+| /status clear \*                                          | Clear the current status                                                                                                         | /status clear                                              |
 
 Begin by typing / and a list of slash command options appears above the text input box. The autocomplete suggestions help by providing a format example in black text and a short description of the slash command in grey text.
 
@@ -810,7 +792,7 @@ Begin by typing / and a list of slash command options appears above the text inp
 
 > NOTE
 >
-> Custom status slash commands marked with an asterisk (*) in the table above will be available in the Mattermost Mobile App in a future release.
+> Custom status slash commands marked with an asterisk (\*) in the table above will be available in the Mattermost Mobile App in a future release.
 
 ### Custom Commands
 
@@ -869,8 +851,6 @@ The right-hand sidebar opens to show the list of pinned messages. For example:
 
 1. Mouse over the message that you want to unpin. The […] link appears.
 2. Select **[…] > Unpin from channel**
-
-
 
 ## Searching
 
@@ -978,12 +958,12 @@ To search for messages containing hashtags, select a hashtag in an existing post
 
 ### Notes About All Searches
 
-- Multiple-word searches return results that contain *all* of your search criteria.
+- Multiple-word searches return results that contain _all_ of your search criteria.
 - Search modifiers can help narrow down searches. See the [Search Modifiers](#search-modifiers) section for details.
 - You can search Archived channels as long as you’re a member of that channel.
   - If you’re unable to see messages or files in archived channels in your search results, ask your System Admin if **Allow users to view archived channels** has been disabled under **System Console > Site Configuration > Users and Teams**.
   - To remove archived channels from your search results, you can leave the Archived channels.
-- Like many search engines, common words such as `the`, `which`, and `are` (known as “stop words”), as well as two-letter and one-letter search terms, are not shown in search results because they typically return too many results. 
+- Like many search engines, common words such as `the`, `which`, and `are` (known as “stop words”), as well as two-letter and one-letter search terms, are not shown in search results because they typically return too many results.
 - IP addresses (e.g. `10.100.200.101`) don’t return results.
 
 # Manage Teams, Channels and Members
@@ -1186,7 +1166,7 @@ When a channel is converted, its history and membership are preserved. Membershi
 
 > NOTE
 >
-> Due to security concerns with sharing Private channel history, only System Admins can convert Private channels to Public channels via **System Console > Channels > Edit (Channel Configuration)**. 
+> Due to security concerns with sharing Private channel history, only System Admins can convert Private channels to Public channels via **System Console > Channels > Edit (Channel Configuration)**.
 
 ### Favouriting a channel
 
@@ -1261,7 +1241,7 @@ For example, you might begin with a general “Marketing” channel. As conversa
 
 > TIP
 >
-> Use colons to separate sections of channel names, rather than `` - `` or `` > `` which require more spaces to display.
+> Use colons to separate sections of channel names, rather than `-` or `>` which require more spaces to display.
 >
 > As the organisation grows, disciplines might split across business units, products and geographies, with channel names like “US: Marketing” and “UK: Marketing”.
 
@@ -1428,7 +1408,7 @@ By default, the desktop notification preference assigned in **Account Settings**
 
 #### Send Mobile Push Notifications
 
-By default, the mobile push notification preference assigned in *Account Settings* is used for all channels. To customize the mobile push notification for each channel, click the channel name at the top of the page to access the channel menu, then select **Notification Preferences > Send mobile push notifications**.
+By default, the mobile push notification preference assigned in _Account Settings_ is used for all channels. To customize the mobile push notification for each channel, click the channel name at the top of the page to access the channel menu, then select **Notification Preferences > Send mobile push notifications**.
 
 ### Channel Header
 
@@ -1545,7 +1525,7 @@ When a team is first created, the person who set it up is made a Team Admin. It 
 
 #### Channel Admin
 
-*Available in Mattermost Enterprise Edition E10 or higher*
+_Available in Mattermost Enterprise Edition E10 or higher_
 
 The person who creates a channel is assigned the Channel Admin role for that channel. People with the Channel Admin role have the following privileges:
 
@@ -1652,11 +1632,11 @@ Other members can see your availability anywhere they can see your name, such as
 
 #### How Mattermost Determines Your Availability
 
-| Client          | **Online**                                      | **Away**                                                     | **Offline**                                            |
-| --------------- | ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------ |
-| **Desktop App** | You’re interacting with your computer           | You’re inactive on your computer for 5 minutes               | You close Mattermost, sleep, or lock your computer     |
+| Client          | **Online**                                      | **Away**                                                                                                                                           | **Offline**                                            |
+| --------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| **Desktop App** | You’re interacting with your computer           | You’re inactive on your computer for 5 minutes                                                                                                     | You close Mattermost, sleep, or lock your computer     |
 | **Web Browser** | You’re interacting with Mattermost in a browser | You have not typed or switched channels for 5 minutesThe tab is unfocused for 5 minutesThe browser is in the background or minimized for 5 minutes | You close the Mattermost browser window                |
-| **Mobile App**  | Mattermost is open                              | Mattermost is open with 5 minutes of inactivity              | You switch apps, close Mattermost, or lock your screen |
+| **Mobile App**  | Mattermost is open                              | Mattermost is open with 5 minutes of inactivity                                                                                                    | You switch apps, close Mattermost, or lock your screen |
 
 ## Configuring Notifications
 
@@ -1714,7 +1694,7 @@ Mobile push notifications appear on the lock screen of your mobile device if the
 
 ### Browser Tab Notifications
 
-If Mattermost is open in a browser tab, the favicon updates to notify you of unread messages (*) and a count of mentions or Direct Messages. Browser tab notifications are available on Chrome, Edge, Firefox, Safari.
+If Mattermost is open in a browser tab, the favicon updates to notify you of unread messages (\*) and a count of mentions or Direct Messages. Browser tab notifications are available on Chrome, Edge, Firefox, Safari.
 
 ![../_images/browser_notification.png](https://docs.mattermost.com/_images/browser_notification.png)
 
@@ -1898,8 +1878,6 @@ Choose from **All direct messages**, or choose to show **10**, **15**, **20**, o
 >
 > This feature is not currently supported on mobile.
 
-
-
 ## Account Settings
 
 Account Settings is accessible from the **Main Menu** by selecting the three horizontal lines (or hamburger menu) at the top of the channel sidebar. From here, you can configure your profile settings, notification preferences, integrations, theme settings, and display options.
@@ -1914,11 +1892,11 @@ Full names appear in the Direct Messages member list and team management modal. 
 
 #### Username
 
-Usernames are unique identifiers appearing next to all posts. Pick something easy for teammates to recognize and recall. By default, you will receive mention notifications when someone types your username. In order to maintain message integrity, changing your username does not update @mentions in messages already posted. Username must begin with a letter, and contain between 3 to 22 lowercase characters made up of numbers, letters, and the symbols ‘.’, ‘-‘, and ‘_’.
+Usernames are unique identifiers appearing next to all posts. Pick something easy for teammates to recognize and recall. By default, you will receive mention notifications when someone types your username. In order to maintain message integrity, changing your username does not update @mentions in messages already posted. Username must begin with a letter, and contain between 3 to 22 lowercase characters made up of numbers, letters, and the symbols ‘.’, ‘-‘, and ‘\_’.
 
 #### Nickname
 
-Nicknames appear in the Direct Messages member list and team management modal. You will not receive mention notifications when someone types your nickname unless you add it to the *Words That Trigger Mentions* in **Account Settings > Notifications**.
+Nicknames appear in the Direct Messages member list and team management modal. You will not receive mention notifications when someone types your nickname unless you add it to the _Words That Trigger Mentions_ in **Account Settings > Notifications**.
 
 #### Position
 
@@ -2035,7 +2013,7 @@ In Enterprise Edition, if you belong to multiple teams, you can optionally selec
 
 Learn more about the custom theme colour selectors [here](#custom-themes).
 
-Select **Import theme colours from Slack** to import a Slack theme. In Slack, go to **Preferences > Sidebar Theme** and open the custom theme option. From there, copy the theme colour vector and then paste it into the *Input Slack Theme* input box in Mattermost. Any theme settings that are not customizable in Slack will default to the “Mattermost” standard theme settings.
+Select **Import theme colours from Slack** to import a Slack theme. In Slack, go to **Preferences > Sidebar Theme** and open the custom theme option. From there, copy the theme colour vector and then paste it into the _Input Slack Theme_ input box in Mattermost. Any theme settings that are not customizable in Slack will default to the “Mattermost” standard theme settings.
 
 #### Clock Display
 
@@ -2051,7 +2029,7 @@ Online availability icons display on user profile avatars in the centre channel 
 
 #### Timezone
 
-Select the timezone used for timestamps in the user interface and email notifications. 
+Select the timezone used for timestamps in the user interface and email notifications.
 
 #### Website Link Previews
 
@@ -2134,7 +2112,7 @@ Turn on preview features to view them early, ahead of their official release:
 
 Use this setting to deactivate your account. After deactivating, an email notification is sent confirming the deactivation was successful.
 
-Deactivating your account removes your ability to log in to  Mattermost  and disables all email and mobile notifications. To reactivate your account, contact the gE.CO toolbox administrators.
+Deactivating your account removes your ability to log in to Mattermost and disables all email and mobile notifications. To reactivate your account, contact the gE.CO toolbox administrators.
 
 ## Theme Colours
 
@@ -2386,14 +2364,14 @@ Navigational keyboard shortcuts help you use Mattermost without requiring a mous
 
 ![Navigate Mattermost using a keyboard.](https://docs.mattermost.com/_images/focus.png)
 
-| Shortcut                            | Description                                                  |
-| ----------------------------------- | ------------------------------------------------------------ |
-| F6 (CTRL+F6 on Browser)             | Move focus to the next section                               |
-| SHIFT+F6 (SHIFT+CTRL+F6 on Browser) | Move focus to the previous section                           |
-| TAB                                 | Move focus to the next element                               |
-| SHIFT+TAB                           | Move focus to the previous element                           |
+| Shortcut                            | Description                                                                     |
+| ----------------------------------- | ------------------------------------------------------------------------------- |
+| F6 (CTRL+F6 on Browser)             | Move focus to the next section                                                  |
+| SHIFT+F6 (SHIFT+CTRL+F6 on Browser) | Move focus to the previous section                                              |
+| TAB                                 | Move focus to the next element                                                  |
+| SHIFT+TAB                           | Move focus to the previous element                                              |
 | Up or DOWN                          | Move focus between messages in the post list or sections in the channel sidebar |
-| ENTER                               | Take action on the focused element                           |
+| ENTER                               | Take action on the focused element                                              |
 
 ### Region Navigation
 
@@ -2450,22 +2428,22 @@ To display a list of available keyboard shortcuts, type CTRL+/ (CMD+/ on Mac), o
 
 ### Navigation
 
-| On Windows                                     | On Mac                                       | Description                                                  |
-| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------ |
-| ALT+UP                                         | OPTION+UP                                    | Previous channel or direct message in the channel sidebar    |
-| ALT+DOWN                                       | OPTION+DOWN                                  | Next channel or direct message in the channel sidebar        |
+| On Windows                                     | On Mac                                       | Description                                                                    |
+| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------ |
+| ALT+UP                                         | OPTION+UP                                    | Previous channel or direct message in the channel sidebar                      |
+| ALT+DOWN                                       | OPTION+DOWN                                  | Next channel or direct message in the channel sidebar                          |
 | ALT+SHIFT+UP                                   | OPTION+SHIFT+UP                              | Previous channel or direct message in the channel sidebar with unread messages |
-| ALT+SHIFT+DOWN                                 | OPTION+SHIFT+DOWN                            | Next channel or direct message in the channel sidebar with unread messages |
-| CTRL+ALT+UP                                    | CMD+OPTION+UP                                | Previous team                                                |
-| CTRL+ALT+DOWN                                  | CMD+OPTION+DOWN                              | Next team                                                    |
-| CTRL+ALT+[1-9]                                 | CMD+OPTION+[1-9]                             | Switch to a specific team                                    |
-| CTRL+K                                         | CMD+K                                        | Open a quick channel switcher dialog                         |
-| CTRL+SHIFT+K                                   | CMD+SHIFT+K                                  | Open the Direct Messages dialog                              |
-| CTRL+SHIFT+A                                   | CMD+SHIFT+A                                  | Open the Account Settings dialog                             |
-| CTRL+SHIFT+M                                   | CMD+SHIFT+M                                  | Open recent mentions                                         |
-| CTRL+SHIFT+L                                   | CMD+SHIFT+L                                  | Set focus to centre channel input field                      |
-| CTRL+.                                         | CMD+.                                        | Open and close the right-hand sidebar                        |
-| CTRL+SHIFT+F (Mobile App) CTRL+F (Desktop App) | CMD+SHIFT+F (Mobile App) CMD+F (Desktop App) | Move focus to the Search field and search the current channel |
+| ALT+SHIFT+DOWN                                 | OPTION+SHIFT+DOWN                            | Next channel or direct message in the channel sidebar with unread messages     |
+| CTRL+ALT+UP                                    | CMD+OPTION+UP                                | Previous team                                                                  |
+| CTRL+ALT+DOWN                                  | CMD+OPTION+DOWN                              | Next team                                                                      |
+| CTRL+ALT+[1-9]                                 | CMD+OPTION+[1-9]                             | Switch to a specific team                                                      |
+| CTRL+K                                         | CMD+K                                        | Open a quick channel switcher dialog                                           |
+| CTRL+SHIFT+K                                   | CMD+SHIFT+K                                  | Open the Direct Messages dialog                                                |
+| CTRL+SHIFT+A                                   | CMD+SHIFT+A                                  | Open the Account Settings dialog                                               |
+| CTRL+SHIFT+M                                   | CMD+SHIFT+M                                  | Open recent mentions                                                           |
+| CTRL+SHIFT+L                                   | CMD+SHIFT+L                                  | Set focus to centre channel input field                                        |
+| CTRL+.                                         | CMD+.                                        | Open and close the right-hand sidebar                                          |
+| CTRL+SHIFT+F (Mobile App) CTRL+F (Desktop App) | CMD+SHIFT+F (Mobile App) CMD+F (Desktop App) | Move focus to the Search field and search the current channel                  |
 
 ### Files
 
