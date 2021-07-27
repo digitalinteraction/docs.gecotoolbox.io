@@ -8,7 +8,7 @@ title: Mattermost
 
 This help guide provides an introduction to using Mattermost as part of the gE.CO toolbox. The text has been adapted from original documentation provided by Mattermost under Creative Commons license ([CC-BY-3.0](https://creativecommons.org/licenses/by/3.0/)). Full credit is given to the Mattermost community for creating the original documentation.
 
-This help guide is in English, but you can help translate this guide into other languages by contacting the [gE.CO project team](mailto:support@gecotoolbox.io) at Newcastle University.
+This help guide is in English, but you can help translate this guide into other languages by contacting the [gE.CO toolbox support team](mailto:support@gecotoolbox.io) at Newcastle University.
 
 ## About this guide
 
@@ -18,7 +18,7 @@ This documentation is relevant to the version of Mattermost that has been used a
 
 This guide has been carefully edited to be relevant to users of the gE.CO toolbox. However, the original documentation on which this guide is based was written to explain all features and settings in Mattermost. The gE.CO toolbox version may not have all of these features available. Settings such as storage space, applications and custom colours/styles can vary between realisations of Mattermost, so please bear this in mind.
 
-If you think an edit to this guide is required, please contact the [gE.CO project team](mailto:support@gecotoolbox.io) at Newcastle University.
+If you think an edit to this guide is required, please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io) at Newcastle University.
 
 # Welcome to Mattermost
 
@@ -61,7 +61,7 @@ To sign in, navigate to the Mattermost sign-in screen here: https://mattermost.g
 
 You can sign in with the username or email address used to create your account.
 
-If you’ve forgotten your password, you can reset it by selecting **I forgot my password** on the sign-in screen, or contact your System Admin for help resetting your password.
+If you’ve forgotten your password, you can reset it by selecting **I forgot my password** on the sign-in screen, or contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io) for help resetting your password.
 
 ![Sign in to Mattermost with your username or email address, or reset your password.](https://docs.mattermost.com/_images/sign-in_with_email.png)
 
@@ -69,7 +69,7 @@ If you’ve forgotten your password, you can reset it by selecting **I forgot my
 
 When enabled by the administrator, you can sign in using your GitLab, Google, Office 365, AD/LDAP, or SAML credentials.
 
-This feature is not currently enabled by administrators of the gE.CO toolbox. If this is a feature you would like to see added, please contact the [gE.CO project team](mailto:support@gecotoolbox.io).
+This feature is not currently enabled by administrators of the gE.CO toolbox. If this is a feature you would like to see added, please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io).
 
 ## Switch Between Teams
 
@@ -254,7 +254,7 @@ Select **Unreads** to filter your followed threads by only those with unread rep
 
 For additional details about working with the Beta release of Collapsed Reply Threads, see our [tutorial video on YouTube](https://www.youtube.com/watch?v=hnD0Zj-mIbs).
 
-<iframe src="https://www.youtube.com/embed/hnD0Zj-mIbs" frameborder="0" allowfullscreen="" style="box-sizing: border-box; width: 635.25px; height: 301.734375px;"></iframe>
+<iframe src="https://www.youtube.com/embed/hnD0Zj-mIbs" frameborder="0" allowfullscreen="" style="box-sizing: border-box; position: absolute; top: 0px; left: 0px; width: 635.25px; height: 301.734375px;"></iframe>
 
 ## Formatting text
 
@@ -543,6 +543,8 @@ Renders as:
 
 ![Markdown Table Sample](https://docs.mattermost.com/_images/markdownTable1.png)
 
+
+
 ## Using Emojis
 
 Emojis are small, digital images or icons used to communicate or express concepts such as emotions and physical gestures in your messages.
@@ -583,7 +585,7 @@ Once saved, your emoji is added to the list of Custom Emoji.
 
 > NOTE
 >
-> If you can’t see the **Custom Emoji** option, then your Mattermost System Admin may have restricted access to certain users. Contact your Mattermost System Admin for help.
+> If you can’t see the **Custom Emoji** option, then please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io).
 >
 > For further assistance, review the [Troubleshooting forum](https://forum.mattermost.org/c/trouble-shoot) for previously reported errors, or [join the Mattermost user community for troubleshooting help](https://mattermost.com/pl/default-ask-mattermost-community/).
 
@@ -684,7 +686,7 @@ Select **Jump** next to a search result in the right-hand sidebar to jump the ce
 
 For any mention that will trigger notifications for more than five users, the user posting the mention must confirm the action before sending the notifications.
 
-If you find this feature has not been enabled by the gE.CO toolbox administrator, please get in touch.
+If you find this feature has not been enabled for you, please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io).
 
 ### Highlighting
 
@@ -724,7 +726,7 @@ Public URLs allow you to share attachments with anyone outside the Mattermost sy
 
 > TIP
 >
-> If **Get Public Link** is not visible in the file previewer, and you prefer that the feature is enabled, you can request your System Admin to enable the feature from the System Console under **Site Configuration > Public Links**.
+> If **Get Public Link** is not visible in the file previewer, and you prefer that the feature is enabled, you can request to enable the feature by contacting the [gE.CO toolbox support team](mailto:support@gecotoolbox.io).
 
 #### Viewing Media
 
@@ -739,7 +741,7 @@ Other document previews (such as Word, Excel, or PPT) are not yet supported.
 
 ### Attachment Limits and Sizes
 
-Up to five files can be attached per post. The default maximum file size is 100 MB, but this can be changed by the System Admin.
+Up to five files can be attached per post. The default maximum file size is 100 MB, but this can be changed by contacting the [gE.CO toolbox support team](mailto:support@gecotoolbox.io).
 
 Image files can be a maximum size of 6048 pixels x 4032 pixels, or 24 MP (mega pixels), or a raw image file size of approximately 36 MB.
 
@@ -753,38 +755,38 @@ Built-in slash commands come with all Mattermost installations and custom slash 
 
 The following slash commands are available on all Mattermost installations:
 
-| Command                                                   | Description                                                                                                                      | Example                                                    |
-| --------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| /away                                                     | Set your availability to away                                                                                                    | /away                                                      |
-| /offline                                                  | Set your availability to offline                                                                                                 | /offline                                                   |
-| /online                                                   | Set your availability to online                                                                                                  | /online                                                    |
-| /dnd                                                      | Set your availability to Do Not Disturb                                                                                          | /dnd                                                       |
-| /code _{text}_                                            | Display text as a code block                                                                                                     | /code File bugs                                            |
-| /collapse                                                 | Turn on auto-collapsing of image previews, image attachments, as well as [in-line images](#in-line-images) over 100px in height  | /collapse                                                  |
-| /expand                                                   | Turn off auto-collapsing of image previews, image attachments, as well as [in-line images](#in-line-images) over 100px in height | /expand                                                    |
-| /echo _{message}\*\*{delay in seconds}_                   | Echo back text from your account                                                                                                 | /echo Hello World 5                                        |
-| /header _{text}_                                          | Edit the channel header                                                                                                          | /header File bugs here                                     |
-| /invite _@{user}_ _~{channel-name}_                       | Invite user to the channel                                                                                                       | /invite @john ~sampleChannel                               |
-| /purpose _{text}_                                         | Edit the channel purpose                                                                                                         | /purpose A channel to discuss bugs                         |
-| /rename _{text}_                                          | Rename the channel                                                                                                               | /rename Developers                                         |
-| /help                                                     | Open the Mattermost help page                                                                                                    | /help                                                      |
-| /invite*people *{name@domain.com …}\_                     | Send an email invite to your Mattermost team                                                                                     | /invite_people [john@example.com](mailto:john@example.com) |
-| /kick _{@username}_                                       | Remove a member from a public or private channel                                                                                 | /kick @alice                                               |
-| /remove _{@username}_                                     | Remove a member from a public or private channel                                                                                 | /remove @alice                                             |
-| /join _{channel-name}_                                    | Join the open channel                                                                                                            | /join off-topic                                            |
-| /open _{channel-name}_                                    | Join the open channel                                                                                                            | /open off-topic                                            |
-| /leave                                                    | Leave the current channel                                                                                                        | /leave                                                     |
-| /mute                                                     | Turns off desktop, email and push notifications for the current channel or the [channel] specified                               | /mute ~[channel]                                           |
-| /logout                                                   | Log out of Mattermost                                                                                                            | /logout                                                    |
-| /me _{message}_                                           | Do an action                                                                                                                     | /me Hello World                                            |
-| /msg _{@username}\*\*{message}_                           | Send a Direct Message to a user                                                                                                  | /msg @alice hello                                          |
-| /groupmsg _{@username1, @username2, …}\*\*{message}_      | Sends a Group Message to the specified users                                                                                     | /groupmsg @alice, @bob hello                               |
-| /search _{text}_                                          | Search text in messages                                                                                                          | /search meeting                                            |
-| /settings                                                 | Open the Account Settings dialog                                                                                                 | /settings                                                  |
-| /shortcuts                                                | Display a list of keyboard shortcuts                                                                                             | /shortcuts                                                 |
-| /shrug _{message}_                                        | Add `¯\_(ツ)_/¯`to your message                                                                                                  | /shrug oh well                                             |
-| /status _{emoji_name}\*\*{descriptive status_message}_ \* | Set a custom status that includes an optional emoji and a descriptive status message                                             | /status sick Feeling unwell and taking time off to recover |
-| /status clear \*                                          | Clear the current status                                                                                                         | /status clear                                              |
+| Command                                                | Description                                                  | Example                                                    |
+| ------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- |
+| /away                                                  | Set your availability to away                                | /away                                                      |
+| /offline                                               | Set your availability to offline                             | /offline                                                   |
+| /online                                                | Set your availability to online                              | /online                                                    |
+| /dnd                                                   | Set your availability to Do Not Disturb                      | /dnd                                                       |
+| /code _{text}_                                         | Display text as a code block                                 | /code File bugs                                            |
+| /collapse                                              | Turn on auto-collapsing of image previews, image attachments, as well as [in-line images](#in-line-images) over 100px in height | /collapse                                                  |
+| /expand                                                | Turn off auto-collapsing of image previews, image attachments, as well as [in-line images](#in-line-images) over 100px in height | /expand                                                    |
+| /echo _{message}_ {delay in seconds}                  | Echo back text from your account                             | /echo Hello World 5                                        |
+| /header {text}                                       | Edit the channel header                                      | /header File bugs here                                     |
+| /invite @{user} ~{channel-name}                    | Invite user to the channel                                   | /invite @john ~sampleChannel                               |
+| /purpose {text}                                      | Edit the channel purpose                                     | /purpose A channel to discuss bugs                         |
+| /rename {text}                                       | Rename the channel                                           | /rename Developers                                         |
+| /help                                                  | Open the Mattermost help page                                | /help                                                      |
+| /invite_people {name@domain.com …}                   | Send an email invite to your Mattermost team                 | /invite_people [john@example.com](mailto:john@example.com) |
+| /kick {@username}                                    | Remove a member from a public or private channel             | /kick @alice                                               |
+| /remove {@username}                                  | Remove a member from a public or private channel             | /remove @alice                                             |
+| /join {channel-name}                                 | Join the open channel                                        | /join off-topic                                            |
+| /open {channel-name}                                 | Join the open channel                                        | /open off-topic                                            |
+| /leave                                                 | Leave the current channel                                    | /leave                                                     |
+| /mute                                                  | Turns off desktop, email and push notifications for the current channel or the [channel] specified | /mute ~[channel]                                           |
+| /logout                                                | Log out of Mattermost                                        | /logout                                                    |
+| /me {message}                                        | Do an action                                                 | /me Hello World                                            |
+| /msg {@username} {message}                          | Send a Direct Message to a user                              | /msg @alice hello                                          |
+| /groupmsg {@username1, @username2, …} {message}     | Sends a Group Message to the specified users                 | /groupmsg @alice, @bob hello                               |
+| /search {text}                                       | Search text in messages                                      | /search meeting                                            |
+| /settings                                              | Open the Account Settings dialog                             | /settings                                                  |
+| /shortcuts                                             | Display a list of keyboard shortcuts                         | /shortcuts                                                 |
+| /shrug {message}                                     | Add `¯\_(ツ)_/¯`to your message                              | /shrug oh well                                             |
+| /status {emoji_name} {descriptive status_message} | Set a custom status that includes an optional emoji and a descriptive status message | /status sick Feeling unwell and taking time off to recover |
+| /status clear                                         | Clear the current status                                     | /status clear                                              |
 
 Begin by typing / and a list of slash command options appears above the text input box. The autocomplete suggestions help by providing a format example in black text and a short description of the slash command in grey text.
 
@@ -796,9 +798,7 @@ Begin by typing / and a list of slash command options appears above the text inp
 
 ### Custom Commands
 
-Custom slash commands integrate with external applications. For example, a team might configure a custom slash command to check internal health records with /patient joe smith or check the weekly weather forecast in a city with /weather toronto week. Check with your System Admin or open the autocomplete list by typing / to determine if your team configured any custom slash commands.
-
-Custom slash commands are disabled by default and can be enabled by the System Admin by going to **System Console** > **Integrations** > **Integration Management**. Learn about configuring custom slash commands on the [developer slash command documentation page](https://docs.mattermost.com/developer/slash-commands.html).
+Custom slash commands integrate with external applications. For example, a team might configure a custom slash command to check internal health records with /patient joe smith or check the weekly weather forecast in a city with /weather toronto week. Check with the [gE.CO toolbox support team](mailto:support@gecotoolbox.io) or open the autocomplete list by typing / to determine if your team configured any custom slash commands.
 
 ## Saving Messages
 
@@ -961,7 +961,7 @@ To search for messages containing hashtags, select a hashtag in an existing post
 - Multiple-word searches return results that contain _all_ of your search criteria.
 - Search modifiers can help narrow down searches. See the [Search Modifiers](#search-modifiers) section for details.
 - You can search Archived channels as long as you’re a member of that channel.
-  - If you’re unable to see messages or files in archived channels in your search results, ask your System Admin if **Allow users to view archived channels** has been disabled under **System Console > Site Configuration > Users and Teams**.
+  - If you’re unable to see messages or files in archived channels in your search results, please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io).
   - To remove archived channels from your search results, you can leave the Archived channels.
 - Like many search engines, common words such as `the`, `which`, and `are` (known as “stop words”), as well as two-letter and one-letter search terms, are not shown in search results because they typically return too many results.
 - IP addresses (e.g. `10.100.200.101`) don’t return results.
@@ -970,13 +970,11 @@ To search for messages containing hashtags, select a hashtag in an existing post
 
 ## Creating Teams
 
-A team is a digital workspace where you and your teammates can collaborate in Mattermost. Depending on how Mattermost is set up in your organisation, you can belong to one team or multiple teams.
-
-New teams can be created if the System Admin sets **Enable Team Creation** to **true** in the System Console.
+A team is a digital workspace where you and your teammates can collaborate in Mattermost. 
 
 ### Methods to Create a Team
 
-If team creation is enabled by the System Admin, teams can be created from the team sidebar or Main Menu. The person who creates a team will automatically be assigned the Team Admin role for that team.
+If team creation is showing as an option for you, teams can be created from the team sidebar or Main Menu. The person who creates a team will automatically be assigned the Team Admin role for that team.
 
 #### Team Sidebar
 
@@ -984,13 +982,13 @@ If you belong to more than one team, a team sidebar will appear to the left of y
 
 ![../_images/team-sidebar.gif](https://docs.mattermost.com/_images/team-sidebar.gif)
 
-If you have appropriate permissions, select the “+” icon at the bottom of the team sidebar, then select **Create a New Team** on the team selection page, which guides you through the rest of the team creation steps. If this option is not visible on the web page, then the System Admin has disabled team creation.
+If you have appropriate permissions, select the “+” icon at the bottom of the team sidebar, then select **Create a New Team** on the team selection page, which guides you through the rest of the team creation steps. If this option is not visible on the web page, then please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io).
 
 If you have no other teams to join, selecting the “+” icon brings you directly to the team creation page if team creation is enabled.
 
 #### Main Menu
 
-From your current Mattermost team, select the **Main Menu** > **Create a New Team**. If this option is not visible in the menu, then the System Admin has disabled team creation.
+From your current Mattermost team, select the **Main Menu** > **Create a New Team**. If this option is not visible in the menu, then please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io).
 
 ### Team Name and URL Selection
 
@@ -1087,7 +1085,7 @@ To create a new Public or Private channel, select the **+** symbol at the top of
 
 > ![Create a channel.](https://docs.mattermost.com/_images/create-new-channel.png)
 
-Anyone can create Public channels or Private channels, unless the System Admin has [restricted the permissions](https://docs.mattermost.com/administration/config-settings.html#enable-public-channel-creation-for).
+Anyone can create Public channels or Private channels.
 
 ### Creating a Direct or Group Message
 
@@ -1125,7 +1123,7 @@ Select the channel name at the top of the centre pane to access the drop-down me
 
 Channels can be identified in two ways:
 
-1. **Channel display name:** This appears in the Mattermost user interface. On Desktop, select the channel name at the top of the centre pane to access the drop-down menu, then choose **Rename Channel**. Anyone can rename the channels they belong to, unless the System Admin has [restricted the permissions](https://docs.mattermost.com/administration/config-settings.html#enable-public-channel-renaming-for).
+1. **Channel display name:** This appears in the Mattermost user interface. On Desktop, select the channel name at the top of the centre pane to access the drop-down menu, then choose **Rename Channel**. Anyone can rename the channels they belong to.
 2. **Channel handle:** This is part of the channel URL. You can also change the channel handle when renaming a channel, but changing channel handles may break existing links.
 
 For example, for the following channel, `https://community.mattermost.com/core/channels/ux-design`:
@@ -1143,10 +1141,7 @@ Select the channel name at the top of the centre pane to access the drop-down me
 
 When a channel is archived, it is removed from the user interface, but a copy exists on the server in case it is needed for audit reasons at a later stage. Because of this, the URL of a newly created channel cannot be the same URL name as an archived channel.
 
-In addition to this, when a channel is archived, by default the contents cannot be viewed, shared, or searched. If you want to be able to view or search the channel later, either:
-
-1. Ask your System Admin to set `ExperimentalViewArchivedChannels` to `true` in `config.json` to allow users to view, share, and search for content of channels that have been archived; or
-2. Leave the channel open, but post a message in the channel saying it’s considered archived: such as `# This channel is archived.`.
+In addition to this, when a channel is archived, by default the contents cannot be viewed, shared, or searched. If you want to be able to view or search the channel later, please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io). Alternatively, leave the channel open, but post a message in the channel saying it’s considered archived: such as `# This channel is archived.`.
 
 ### Unarchiving a channel
 
@@ -1154,13 +1149,13 @@ Search for the channel if required. Then, open the channel, select the channel n
 
 > ![Unarchive a channel.](https://docs.mattermost.com/_images/unarchive-channel.png)
 
-When a channel is unarchived, channel membership and all its content is restored, unless messages and files have been deleted based on the [data retention policy](https://docs.mattermost.com/administration/config-settings.html#data-retention-policy).
+When a channel is unarchived, channel membership and all its content is restored, unless messages and files have been deleted based on the data retention policy. Please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io) for more information about this.
 
-In addition to this, System Admins can also unarchive channels [via the CLI](https://docs.mattermost.com/administration/command-line-tools.html#mattermost-channel-restore) and Team Admins can unarchive them [via the API](https://api.mattermost.com/#tag/channels/paths/~1channels~1{channel_id}~1restore/post).
+In addition to this, the [gE.CO toolbox support team](mailto:support@gecotoolbox.io) can also unarchive channels.
 
 ### Converting Public channels to Private channels (and vice versa)
 
-Select the Public channel name at the top of the centrE pane to access the drop-down menu, then select **Convert to Private Channel**. Team and System Admins can convert Public channels to Private channels. Please note that default channels such as `TownSquare` and `Off-Topic` cannot be converted to Private channels.
+Select the Public channel name at the top of the centre pane to access the drop-down menu, then select **Convert to Private Channel**. Team and System Admins can convert Public channels to Private channels. Please note that default channels such as `TownSquare` and `Off-Topic` cannot be converted to Private channels.
 
 When a channel is converted, its history and membership are preserved. Membership in a Private channel is by invitation only. Publicly-shared files remain accessible to anyone with the link.
 
@@ -1412,7 +1407,7 @@ By default, the mobile push notification preference assigned in _Account Setting
 
 ### Channel Header
 
-In the channel menu, select **Edit Channel Header** to change the text that appears next to the channel name at the top of the screen. It can be used to summarize the channel topic or provide links to frequently accessed documents. Any channel member can edit this setting, unless the System Admin has restricted the permissions.
+In the channel menu, select **Edit Channel Header** to change the text that appears next to the channel name at the top of the screen. It can be used to summarize the channel topic or provide links to frequently accessed documents. Any channel member can edit this setting.
 
 #### Adding links to the Channel Header
 
@@ -1422,11 +1417,11 @@ Example: [Google Hangout](https://plus.google.com/hangouts/_/store.com/shipping)
 
 ### Channel Purpose
 
-In the channel menu, select **Edit Channel Purpose** to change the text that appears in the **More…** menu for channels. The channel purpose is usually a short description that helps others decide whether to join the channel. Any channel member can edit this setting, unless the System Admin has restricted the permissions.
+In the channel menu, select **Edit Channel Purpose** to change the text that appears in the **More…** menu for channels. The channel purpose is usually a short description that helps others decide whether to join the channel. Any channel member can edit this setting.
 
 ### Channel Name
 
-In the channel menu, select **Rename Channel** to change the channel name or handle. Changing the channel handle changes the channel URL. Any channel member can edit this setting, unless the System Admin has restricted the permissions. Please note that [some unicode characters](https://www.w3.org/TR/unicode-xml/#Charlist) are not supported.
+In the channel menu, select **Rename Channel** to change the channel name or handle. Changing the channel handle changes the channel URL. Any channel member can edit this setting. Please note that [some unicode characters](https://www.w3.org/TR/unicode-xml/#Charlist) are not supported.
 
 ## Managing Members
 
@@ -1434,7 +1429,7 @@ In the channel menu, select **Rename Channel** to change the channel name or han
 
 If you have the required permissions, you can add people to your team via a direct invite, a public team invite link, or if they already have an account on the server, you can add them to the team yourself.
 
-The gE.CO toolbox administrator can enable guest access. A guest is a special role that is restricted to only the channels they have been invited to. When guest access is enabled, you can invite guests or users external to the organisation, such as vendors or customers.
+The [gE.CO toolbox support team](mailto:support@gecotoolbox.io) can enable guest access. A guest is a special role that is restricted to only the channels they have been invited to. When guest access is enabled, you can invite guests or users external to the organisation, such as vendors or customers.
 
 #### Direct Invites
 
@@ -1460,8 +1455,8 @@ Direct invites are invitation emails sent from your team’s server directly to 
 
 > NOTE
 >
-> - If you aren’t able to see the **Invite Guests** option, confirm with your System Admin that you have the correct permissions.
-> - If you don’t see the **Send Email Invite** option, confirm with your System Admin that **System Console > Authentication > Signup > Enable Email Invitations** is set to `true`.
+> - If you aren’t able to see the **Invite Guests** option, confirm with [gE.CO toolbox support team](mailto:support@gecotoolbox.io) that you have the correct permissions.
+> - If you don’t see the **Send Email Invite** option, confirm with [gE.CO toolbox support team](mailto:support@gecotoolbox.io) that **System Console > Authentication > Signup > Enable Email Invitations** is set to `true`.
 
 #### Team Invite Link
 
@@ -1497,7 +1492,7 @@ If someone you want to add to your team already has an account on the server, yo
 
 > NOTE
 >
-> - If you aren’t able to see the **Invite Guests** option, confirm with your System Admin that you have the correct permissions.
+> - If you aren’t able to see the **Invite Guests** option, confirm with the [gE.CO toolbox support team](mailto:support@gecotoolbox.io) that you have the correct permissions.
 > - System Admins can view and add team membership to individual users on the user profile page (via **System Console > Users > User Profile**) by selecting **Add Team**.
 
 ### User Roles
@@ -1506,7 +1501,7 @@ There are six types of user roles with different permission levels in Mattermost
 
 #### System Admin
 
-The first user added to a newly-installed Mattermost system is assigned the System Admin role. This is the gE.CO toolbox administrator.
+The first user added to a newly-installed Mattermost system is assigned the System Admin role. This is the lead administrator of the gE.CO toolbox.
 
 - Access to the System Console from the main menu in any team site.
 - Ability to change any setting on the Mattermost server available in the System Console.
@@ -1522,18 +1517,6 @@ When a team is first created, the person who set it up is made a Team Admin. It 
 - Access to the **Team Settings** menu from the team site main menu.
 - Ability to change the team name and import data from Slack export files.
 - Access to the **Manage Members** menu, where they can control whether team members are a **Member** or a **Team Admin**.
-
-#### Channel Admin
-
-_Available in Mattermost Enterprise Edition E10 or higher_
-
-The person who creates a channel is assigned the Channel Admin role for that channel. People with the Channel Admin role have the following privileges:
-
-- Ability to assign the Channel Admin role to other members of the channel.
-- Ability to remove the Channel Admin role from other holders of the Channel Admin role.
-- Ability to remove members from the channel.
-
-Depending on your system configuration, Channel Admins can be granted special permissions by the System Admin to rename and delete channels.
 
 #### Member
 
@@ -1579,8 +1562,6 @@ When a user is removed from a team, the team will no longer show up in their tea
 
 Removing a user from the team does not deactivate the account. The user will still be able to sign in to the site, and join other teams. They will also be able to rejoin the team they were removed from if they receive another invite, or if the team is set to [“Allow any user with an account on this server to join this team”](https://docs.mattermost.com/help/settings/team-settings.html#allow-anyone-to-join-this-team). If the user does rejoin the team, they will no longer belong to the channels they were previously a part of, and they will lose all Admin privileges if they had them previously.
 
-A System Admin can also remove users from teams via **System Console > Users**, and selecting the dropdown beside a user entry and selecting **Manage Teams**. The list of teams an individual user belongs to can be viewed on the user’s profile page via **System Console > Users** and selecting the member’s name from the list provided in the **User Configuration** screen.
-
 #### Leaving a Team
 
 Users can also choose to remove themselves from a team, from **Main Menu > Leave Team**. This will remove the user from the team, and from all public channels and private channels on the team.
@@ -1611,7 +1592,7 @@ Set a custom status to add an optional emoji to a descriptive status message. Ot
 
 > NOTE
 >
-> - If custom statuses aren’t available, you can request the gE.CO toolbox administrators to enable this feature in **System Console > Site Configuration > Users and Teams > Enable Custom Statuses**.
+> - If custom statuses aren’t available, you can request the [gE.CO toolbox support team](mailto:support@gecotoolbox.io) to enable this feature in **System Console > Site Configuration > Users and Teams > Enable Custom Statuses**.
 > - Custom statuses will be available in the Mattermost Mobile App in a future release.
 
 ### Clearing a Custom Status
@@ -1633,10 +1614,10 @@ Other members can see your availability anywhere they can see your name, such as
 #### How Mattermost Determines Your Availability
 
 | Client          | **Online**                                      | **Away**                                                                                                                                           | **Offline**                                            |
-| --------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| **Desktop App** | You’re interacting with your computer           | You’re inactive on your computer for 5 minutes                                                                                                     | You close Mattermost, sleep, or lock your computer     |
-| **Web Browser** | You’re interacting with Mattermost in a browser | You have not typed or switched channels for 5 minutesThe tab is unfocused for 5 minutesThe browser is in the background or minimized for 5 minutes | You close the Mattermost browser window                |
-| **Mobile App**  | Mattermost is open                              | Mattermost is open with 5 minutes of inactivity                                                                                                    | You switch apps, close Mattermost, or lock your screen |
+ | --------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+ | **Desktop App** | You’re interacting with your computer           | You’re inactive on your computer for 5 minutes                                                                                                     | You close Mattermost, sleep, or lock your computer     |
+ | **Web Browser** | You’re interacting with Mattermost in a browser | You have not typed or switched channels for 5 minutesThe tab is unfocused for 5 minutesThe browser is in the background or minimized for 5 minutes | You close the Mattermost browser window                |
+ | **Mobile App**  | Mattermost is open                              | Mattermost is open with 5 minutes of inactivity                                                                                                    | You switch apps, close Mattermost, or lock your screen |
 
 ## Configuring Notifications
 
@@ -1893,12 +1874,12 @@ Full names appear in the Direct Messages member list and team management modal. 
 #### Username
 
 Usernames are unique identifiers appearing next to all posts. Pick something easy for teammates to recognize and recall. By default, you will receive mention notifications when someone types your username. In order to maintain message integrity, changing your username does not update @mentions in messages already posted. Username must begin with a letter, and contain between 3 to 22 lowercase characters made up of numbers, letters, and the symbols ‘.’, ‘-‘, and ‘\_’.
-
-#### Nickname
-
-Nicknames appear in the Direct Messages member list and team management modal. You will not receive mention notifications when someone types your nickname unless you add it to the _Words That Trigger Mentions_ in **Account Settings > Notifications**.
-
-#### Position
+ 
+ #### Nickname
+ 
+ Nicknames appear in the Direct Messages member list and team management modal. You will not receive mention notifications when someone types your nickname unless you add it to the _Words That Trigger Mentions_ in **Account Settings > Notifications**.
+ 
+ #### Position
 
 Position can be used to describe your role or job title. It appears in the profile popup that shows up when you select a user’s name in the centre channel or right-hand sidebar.
 
@@ -1979,13 +1960,13 @@ Email notifications are sent for mentions and direct messages after you’ve bee
 
 #### Mobile Push Notifications
 
-Push notifications can be sent to your mobile device if you have the Android or iOS app installed. You can choose the type of activity that will send a notification. By default, push notifications are sent “For mentions and direct messages”. If push notifications are sent “Never”, the Mattermost setting to trigger push notifications depending on your Mattermost [availability](#setting-your-status-availability.html) is hidden. If your System Admin has not set up push notifications, this setting will be disabled.
+Push notifications can be sent to your mobile device if you have the Android or iOS app installed. You can choose the type of activity that will send a notification. By default, push notifications are sent “For mentions and direct messages”. If push notifications are sent “Never”, the Mattermost setting to trigger push notifications depending on your Mattermost [availability](#setting-your-status-availability.html) is hidden. If you do not see this option, and would like it to be enabled, please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io).
 
 If you’re actively viewing a channel (Public or Private), Direct Message, or Group Message on desktop or web, no push notifications will be sent for that channel. If a notification is viewed on desktop or web, the lockscreen notification will clear on Android, and on iOS the badge on the Mattermost app icon will decrement accordingl;
 
 #### Trigger Mobile Push Notifications When
 
-You can also choose when to send push notifications depending on your Mattermost availability. By default, push notifications are sent if your availability is **Away** or **Offline**. If **Send Mobile Push Notifications** is set as **Never**, this setting is hidden. If your System Admin has not set up push notifications, this setting will be disabled.
+You can also choose when to send push notifications depending on your Mattermost availability. By default, push notifications are sent if your availability is **Away** or **Offline**. If **Send Mobile Push Notifications** is set as **Never**, this setting is hidden. If this setting is not showing for you, please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io).
 
 #### Words That Trigger Mentions
 
@@ -1997,7 +1978,7 @@ In addition to **Words that Trigger Mentions**, this setting allows you to recei
 
 #### Automatic Direct Message Replies
 
-Set an automated custom message that will be sent once per day in response to Direct Messages. Mentions in Public and Private Channels won’t trigger the automated reply. Enabling Automatic Replies sets your availability to **Out of Office** and disables desktop, email, and push notifications. This setting is experimental; if you experience any issues with this, please contact the gE.CO toolbox administrator.
+Set an automated custom message that will be sent once per day in response to Direct Messages. Mentions in Public and Private Channels won’t trigger the automated reply. Enabling Automatic Replies sets your availability to **Out of Office** and disables desktop, email, and push notifications. This setting is experimental; if you experience any issues with this, please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io).
 
 ### Display
 
@@ -2112,7 +2093,7 @@ Turn on preview features to view them early, ahead of their official release:
 
 Use this setting to deactivate your account. After deactivating, an email notification is sent confirming the deactivation was successful.
 
-Deactivating your account removes your ability to log in to Mattermost and disables all email and mobile notifications. To reactivate your account, contact the gE.CO toolbox administrators.
+Deactivating your account removes your ability to log in to Mattermost and disables all email and mobile notifications. To reactivate your account, please contact the [gE.CO toolbox support team](mailto:support@gecotoolbox.io).
 
 ## Theme Colours
 
@@ -2375,6 +2356,8 @@ Navigational keyboard shortcuts help you use Mattermost without requiring a mous
 
 ### Region Navigation
 
+### Region Navigation
+
 Mattermost has eight regions that can be focused for navigation. Use **F6** (Desktop App) or **CTRL+F6** (Browser) repeatedly to move focus and loop through the regions in this order:
 
 1. Message list region
@@ -2428,22 +2411,22 @@ To display a list of available keyboard shortcuts, type CTRL+/ (CMD+/ on Mac), o
 
 ### Navigation
 
-| On Windows                                     | On Mac                                       | Description                                                                    |
-| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------ |
-| ALT+UP                                         | OPTION+UP                                    | Previous channel or direct message in the channel sidebar                      |
-| ALT+DOWN                                       | OPTION+DOWN                                  | Next channel or direct message in the channel sidebar                          |
-| ALT+SHIFT+UP                                   | OPTION+SHIFT+UP                              | Previous channel or direct message in the channel sidebar with unread messages |
-| ALT+SHIFT+DOWN                                 | OPTION+SHIFT+DOWN                            | Next channel or direct message in the channel sidebar with unread messages     |
-| CTRL+ALT+UP                                    | CMD+OPTION+UP                                | Previous team                                                                  |
-| CTRL+ALT+DOWN                                  | CMD+OPTION+DOWN                              | Next team                                                                      |
-| CTRL+ALT+[1-9]                                 | CMD+OPTION+[1-9]                             | Switch to a specific team                                                      |
-| CTRL+K                                         | CMD+K                                        | Open a quick channel switcher dialog                                           |
-| CTRL+SHIFT+K                                   | CMD+SHIFT+K                                  | Open the Direct Messages dialog                                                |
-| CTRL+SHIFT+A                                   | CMD+SHIFT+A                                  | Open the Account Settings dialog                                               |
-| CTRL+SHIFT+M                                   | CMD+SHIFT+M                                  | Open recent mentions                                                           |
-| CTRL+SHIFT+L                                   | CMD+SHIFT+L                                  | Set focus to centre channel input field                                        |
-| CTRL+.                                         | CMD+.                                        | Open and close the right-hand sidebar                                          |
-| CTRL+SHIFT+F (Mobile App) CTRL+F (Desktop App) | CMD+SHIFT+F (Mobile App) CMD+F (Desktop App) | Move focus to the Search field and search the current channel                  |
+ | On Windows                                     | On Mac                                       | Description                                                                    |
+ | ---------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------ |
+ | ALT+UP                                         | OPTION+UP                                    | Previous channel or direct message in the channel sidebar                      |
+ | ALT+DOWN                                       | OPTION+DOWN                                  | Next channel or direct message in the channel sidebar                          |
+ | ALT+SHIFT+UP                                   | OPTION+SHIFT+UP                              | Previous channel or direct message in the channel sidebar with unread messages |
+ | ALT+SHIFT+DOWN                                 | OPTION+SHIFT+DOWN                            | Next channel or direct message in the channel sidebar with unread messages     |
+ | CTRL+ALT+UP                                    | CMD+OPTION+UP                                | Previous team                                                                  |
+ | CTRL+ALT+DOWN                                  | CMD+OPTION+DOWN                              | Next team                                                                      |
+ | CTRL+ALT+[1-9]                                 | CMD+OPTION+[1-9]                             | Switch to a specific team                                                      |
+ | CTRL+K                                         | CMD+K                                        | Open a quick channel switcher dialog                                           |
+ | CTRL+SHIFT+K                                   | CMD+SHIFT+K                                  | Open the Direct Messages dialog                                                |
+ | CTRL+SHIFT+A                                   | CMD+SHIFT+A                                  | Open the Account Settings dialog                                               |
+ | CTRL+SHIFT+M                                   | CMD+SHIFT+M                                  | Open recent mentions                                                           |
+ | CTRL+SHIFT+L                                   | CMD+SHIFT+L                                  | Set focus to centre channel input field                                        |
+ | CTRL+.                                         | CMD+.                                        | Open and close the right-hand sidebar                                          |
+ | CTRL+SHIFT+F (Mobile App) CTRL+F (Desktop App) | CMD+SHIFT+F (Mobile App) CMD+F (Desktop App) | Move focus to the Search field and search the current channel                  |
 
 ### Files
 
