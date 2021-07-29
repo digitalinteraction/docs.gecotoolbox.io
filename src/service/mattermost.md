@@ -254,8 +254,6 @@ Select **Unreads** to filter your followed threads by only those with unread rep
 
 For additional details about working with the Beta release of Collapsed Reply Threads, see our [tutorial video on YouTube](https://www.youtube.com/watch?v=hnD0Zj-mIbs).
 
-<iframe src="https://www.youtube.com/embed/hnD0Zj-mIbs" frameborder="0" allowfullscreen="" style="box-sizing: border-box; position: absolute; top: 0px; left: 0px; width: 635.25px; height: 301.734375px;"></iframe>
-
 ## Formatting text
 
 Markdown makes it easy to format messages. Type a message as you normally would, then use these the following formatting syntax to render the message a specific way. For a guide to using Markdown in Mattermost, [see this blog post](https://mattermost.com/blog/laymans-guide-to-markdown-on-mattermost/).
