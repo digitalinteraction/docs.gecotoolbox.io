@@ -25,9 +25,6 @@ $primary: #089fc4;
 $info: #c22f61;
 $link: #60b98f;
 
-$widescreen-enabled: false;
-$fullhd-enabled: false;
-
 $body-family: 'system-ui', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
   Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
   'Segoe UI Symbol';
@@ -122,11 +119,13 @@ html {
 }
 
 .sticky-toc {
-  position: sticky;
-  top: 1.5rem;
-  bottom: 1.5rem;
-  max-height: calc(100vh - 3rem);
-  overflow: auto;
+  @include tablet {
+    position: sticky;
+    top: 1.5rem;
+    bottom: 1.5rem;
+    max-height: calc(100vh - 3rem);
+    overflow: auto;
+  }
 
   @for $i from 2 through 6 {
     li.is-#{$i} {
