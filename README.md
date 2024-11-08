@@ -45,3 +45,4 @@ which [sass/styles.scss](/sass/styles.scss) is the entrypoint of.
 ---
 
 > This project was set up by [puggle](https://npm.im/puggle)
+> 
